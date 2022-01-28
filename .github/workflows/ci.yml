@@ -10,6 +10,14 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: Installing node
+        uses: actions/setup-node@v2
+      - name: Install Node Modules
+        run: |
+          npm install
+      - name: Running test
+        run: |
+          yarn jest
 
   linter:
     name: Code Linter
