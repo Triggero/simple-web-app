@@ -15,8 +15,6 @@ jobs:
       - name: Install Node Modules
         run: |
           npm install
-          npm config set user 0
-          npm config set unsafe-perm true
       - name: Running test
         run: |
           npm run test
