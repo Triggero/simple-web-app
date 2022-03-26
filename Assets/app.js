@@ -1,2 +1,2 @@
-console.log(6 + 9);
-console.log("Hello");
+console.log(6 + 9)
+console.log('Hello')
