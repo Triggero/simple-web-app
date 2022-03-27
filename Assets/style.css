@@ -1,3 +1,7 @@
 body {
   background-image: "mvrsniff.png";
 }
+
+title {
+  text-shadow: 1rem;
+}
